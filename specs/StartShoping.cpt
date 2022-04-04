@@ -1,0 +1,6 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Click Start Shoping Button
+*Id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elenti bul ve tıkla
+* Wait for "2" seconds

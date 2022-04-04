@@ -1,0 +1,60 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (1) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 2000milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2000"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 56594"}
+{"logLevel":"info","message":"Listening on port:56594"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'PageScroll.SwipUp' and 'PageScroll.SwipUp'"}
+{"logLevel":"debug","message":"Found scrolls down the page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.findByelementEndclick' and 'BasePage.findByelementEndclick'"}
+{"logLevel":"debug","message":"Found {} elementin sayfada gorunur oldugunu kontrol et ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AppOpen.checkApp' and 'AppOpen.checkApp'"}
+{"logLevel":"debug","message":"Found Check App in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.waitForsecond' and 'BasePage.waitForsecond'"}
+{"logLevel":"debug","message":"Found Wait for {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'RandomSelect.random' and 'RandomSelect.random'"}
+{"logLevel":"debug","message":"Found Random Select Product in current project scope."}
+{"logLevel":"debug","message":"Comparing 'ClickWoman.clickByxpath' and 'ClickWoman.clickByxpath'"}
+{"logLevel":"debug","message":"Found Xpath {} Find element with and click in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AddFavorite.clickByid' and 'AddFavorite.clickByid'"}
+{"logLevel":"debug","message":"Found Id {} Find element with and click in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AddFavorite.clickByid' and 'ProductClickButton.clickByid'"}
+{"logLevel":"debug","message":"Comparing 'ProductClickButton.clickByid' and 'ProductClickButton.clickByid'"}
+{"logLevel":"debug","message":"Found Id {} Find element with and click in current project scope."}
+{"logLevel":"debug","message":"Comparing 'CheckProductItemPage.checkPIP' and 'CheckProductItemPage.checkPIP'"}
+{"logLevel":"debug","message":"Found Check Product Item Page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickByid' and 'BasePage.clickByid'"}
+{"logLevel":"debug","message":"Found Id {} li elenti bul ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BasePage.clickByxpath' and 'BasePage.clickByxpath'"}
+{"logLevel":"debug","message":"Found Xpath {} li elementi bul  ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'CheckCategoriesPage.checkApp' and 'CheckCategoriesPage.checkApp'"}
+{"logLevel":"debug","message":"Found Check Categories in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AddFavorite.clickByid' and 'StartShoppingStep.clickByid'"}
+{"logLevel":"debug","message":"Comparing 'ProductClickButton.clickByid' and 'StartShoppingStep.clickByid'"}
+{"logLevel":"debug","message":"Comparing 'StartShoppingStep.clickByid' and 'StartShoppingStep.clickByid'"}
+{"logLevel":"debug","message":"Found Id {} Find element with and click in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tCheck App : public void checkApp()"}
+{"logLevel":"debug","message":"\tWait for {} seconds : public void waitForsecond(ınt s) throws InterruptedException"}
+{"logLevel":"debug","message":"\tXpath {} Find element with and click : public void clickByxpath(String xpath)"}
+{"logLevel":"debug","message":"\tRandom Select Product : public void random()"}
+{"logLevel":"debug","message":"\t{} elementin sayfada gorunur oldugunu kontrol et ve tıkla : public void findByelementEndclick(String id)"}
+{"logLevel":"debug","message":"\tId {} li elenti bul ve tıkla : public void clickByid(String id)"}
+{"logLevel":"debug","message":"\tscrolls down the page : public void SwipUp()"}
+{"logLevel":"debug","message":"\tCheck Product Item Page : public void checkPIP()"}
+{"logLevel":"debug","message":"\tId {} Find element with and click : public void clickByid(String id)"}
+{"logLevel":"debug","message":"\tXpath {} li elementi bul  ve tıkla : public void clickByxpath(String xpath)"}
+{"logLevel":"debug","message":"\tCheck Categories : public void checkApp()"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
